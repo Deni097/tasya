@@ -2,7 +2,7 @@
 // PERSONALISASI
 // =============================
 const whatsappNumber = "6281998505353"; // GANTI nomor WA kamu
-const whatsappText = "Tasya... aku sudah selesai baca semuanya ❤️";
+const whatsappText = "Yes... I'm yours ❤️";
 // =============================
 
 let page=1;
