@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For Tasya — A Little Something ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="glow g1"></div><div class="glow g2"></div>
+
+<main>
+<section class="screen active" id="s1">
+  <div class="eyebrow">a little something for</div>
+  <h1>Tasya<span class="dot">.</span></h1>
+  <p>Ada sesuatu yang pengen gue sampaikan. Bukan lewat chat. Kali ini gue bikin tempat kecil khusus buat kamu.</p>
+  <button onclick="go(2)">Masuk <b>→</b></button>
+</section>
+
+<section class="screen" id="s2">
+  <div class="tag">01 / honestly</div>
+  <h2>Gue sempat<br><em>bingung</em> mulai dari mana.</h2>
+  <p>Karena kalau ngomong langsung, mungkin gue bakal terlalu gugup. Jadi biar website ini yang ngomong duluan.</p>
+  <button onclick="go(3)">Lanjut <b>→</b></button>
+</section>
+
+<section class="screen" id="s3">
+  <div class="tag">02 / about you</div>
+  <h2>Tasya, ada hal kecil tentang kamu...</h2>
+  <p>Entah kenapa, ngobrol sama kamu selalu terasa berbeda. Hal-hal sederhana jadi terasa lebih menyenangkan ketika ada kamu.</p>
+  <div class="quote">“Some people just make ordinary days feel a little more special.”</div>
+  <button onclick="go(4)">Masih ada satu hal <b>→</b></button>
+</section>
+
+<section class="screen" id="s4">
+  <div class="tag">03 / no more hiding</div>
+  <h2>Jadi gue mau<br><em>jujur.</em></h2>
+  <p>Gue suka sama kamu, Tasya. Dan kali ini gue nggak mau cuma menyimpannya sendiri.</p>
+  <button onclick="go(5)">Buka yang terakhir <b>→</b></button>
+</section>
+
+<section class="screen final" id="s5">
+  <div class="heart">♡</div>
+  <div class="eyebrow">one honest question for you</div>
+  <h1>Tasya,<br><em>will you be mine?</em></h1>
+  <p>Gue nggak mau maksa kamu buat jawab sesuai yang gue mau. Gue cuma pengen kamu tahu perasaan gue.</p>
+  <div class="choices">
+    <button class="yes" onclick="yes()">Iya, mau ❤️</button>
+    <button class="no" id="no" onclick="nope()">Belum yakin</button>
+  </div>
+  <small>take your time. seriously.</small>
+</section>
+
+<section class="screen result" id="yes">
+  <div class="bigheart">♥</div>
+  <div class="eyebrow">for Tasya</div>
+  <h1>Thank you,<br><em>Tasya.</em> ❤️</h1>
+  <p>Kalau jawaban kamu benar-benar iya, gue bakal menghargai kesempatan ini dan menjalaninya dengan baik.</p>
+  <p class="tiny">Sekarang… gue pengen dengar langsung dari kamu.</p>
+  <a class="wa" id="wa" href="#">Chat gue →</a>
+</section>
+</main>
+
+<div class="counter" id="counter">01 / 05</div>
+<div class="bar"><i id="bar"></i></div>
+<script src="script.js"></script>
+</body>
+</html>
